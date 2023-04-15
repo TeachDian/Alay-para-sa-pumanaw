@@ -1,0 +1,212 @@
+/*
+	@name login_page
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1920px; width: 1920px; height: 1080px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#_bg__login_page {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background:#;
+	background: -webkit-linear-gradient(-180deg , rgba(241,185,214,1) 0%, rgba(145,201,226,1) 100%);
+	background: -o-linear-gradient(-180deg , rgba(241,185,214,1) 0%, rgba(145,201,226,1) 100%);
+	background: -moz-linear-gradient(-180deg , rgba(241,185,214,1) 0%, rgba(145,201,226,1) 100%);
+	background: -ms-linear-gradient(-180deg , rgba(241,185,214,1) 0%, rgba(145,201,226,1) 100%);
+	background: linear-gradient(-180deg , rgba(241,185,214,1) 0%, rgba(145,201,226,1) 100%);
+}
+
+
+#rectangle_3 {
+	top: 115px;
+	left: 960px;
+	width: 835px;
+	height: 850px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	background:rgba(245,246,251,1);
+}
+
+
+#rectangle_4 {
+	top: 392px;
+	left: 1085px;
+	width: 586px;
+	height: 60px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	-ms-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+}
+
+
+#rectangle_5 {
+	top: 497px;
+	left: 1085px;
+	width: 586px;
+	height: 60px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	-ms-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+}
+
+
+#welcome_back {
+	top: 250px;
+	left: 1164px;
+	width: 492px;
+	height: 115px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 60px;
+	font-weight: bold;
+	text-align: left;
+	color:#608FBC;
+}
+
+
+#face_recognition {
+	top: 40px;
+	left: 89px;
+	width: 289px;
+	height: 57px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#username {
+	top: 404px;
+	left: 1113px;
+	width: 179px;
+	height: 57px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 30px;
+	text-align: left;
+	color:#1F0010;
+}
+
+
+#narcissus_tech___2023 {
+	top: 917px;
+	left: 1264px;
+	width: 237px;
+	height: 38px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 20px;
+	text-align: center;
+	color:#608FBC;
+}
+
+
+#password {
+	top: 509px;
+	left: 1113px;
+	width: 172px;
+	height: 57px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 30px;
+	text-align: left;
+	color:#1F0010;
+}
+
+
+#_rectangle_6 {
+	top: 636px;
+	left: 1085px;
+	width: 586px;
+	height: 90px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	background:rgba(215,108,162,1);
+	z-index: 0;
+}
+
+
+#login {
+	top: 657px;
+	left: 1323px;
+	width: 110px;
+	height: 50px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+	color:#E6EAF3;
+	z-index: 1;
+}
+
+
+#rectangle_7 {
+	top: 43px;
+	left: 46px;
+	width: 30px;
+	height: 30px;
+	background:rgba(255,255,255,1);
+}
+
+
+#group_1_1 {
+	top: 292px;
+	left: 113px;
+	width: 895px;
+	height: 867px;
+}
+
+
+#globe_spiral_glass_1_1 {
+	top: 255px;
+	left: 451px;
+	width: 350px;
+	height: 356px;
+}
+
+
+#dipyramid_glass_1_1 {
+	top: 163px;
+	left: -37px;
+	width: 779.42px;
+	height: 786.84px;
+}
+
+
+
+/* Add your custom CSS here */

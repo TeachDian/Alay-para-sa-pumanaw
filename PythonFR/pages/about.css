@@ -1,0 +1,232 @@
+/*
+	@name about
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1920px; width: 1920px; height: 1080px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#_bg__about {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background: -webkit-linear-gradient(-180deg , rgba(241,185,214,1) 0%, rgba(145,201,226,1) 100%);
+	background: -o-linear-gradient(-180deg , rgba(241,185,214,1) 0%, rgba(145,201,226,1) 100%);
+	background: -moz-linear-gradient(-180deg , rgba(241,185,214,1) 0%, rgba(145,201,226,1) 100%);
+	background: -ms-linear-gradient(-180deg , rgba(241,185,214,1) 0%, rgba(145,201,226,1) 100%);
+	background: linear-gradient(-180deg , rgba(241,185,214,1) 0%, rgba(145,201,226,1) 100%);
+}
+
+
+#rectangle_3 {
+	opacity:0.30000001192093;
+	top: 181px;
+	left: 269px;
+	width: 1383px;
+	height: 718px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	background:rgba(245,246,251,0.3);
+}
+
+
+#about {
+	top: 275px;
+	left: 372px;
+	width: 200px;
+	height: 96px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 50px;
+	text-align: left;
+	color:#03274A;
+}
+
+
+#aboutRef {
+	top: 368px;
+	left: 369px;
+	width: 1190px;
+	height: 257.5px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 25px;
+	text-align: justified;
+	color:#000000;
+}
+
+
+#_github_white_1 {
+	top: 674px;
+	left: 1385.3px;
+	width: 91.75px;
+	height: 91.75px;
+}
+
+
+#_gmail_white_1 {
+	top: 674px;
+	left: 443px;
+	width: 91.75px;
+	height: 91.75px;
+	position: absolute;
+	z-index: 1; /* lower than other elements */
+}
+
+
+#_gmail_white_2 {
+	top: 674px;
+	left: 678.1px;
+	width: 91.75px;
+	height: 91.75px;
+	position: absolute;
+	z-index: 1; /* lower than other elements */
+}
+
+
+#_gmail_white_3 {
+	top: 674px;
+	left: 913.2px;
+	width: 91.75px;
+	height: 91.75px;
+	position: absolute;
+	z-index: 1; /* lower than other elements */
+}
+
+
+#_gmail_white_4 {
+	top: 674px;
+	left: 1148px;
+	width: 91.75px;
+	height: 91.75px;
+	position: absolute;
+	z-index: 1; /* lower than other elements */
+}
+
+
+#_leigh {
+	top: 787px;
+	left: 439px;
+	width: 99px;
+	height: 57px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 30px;
+	text-align: center;
+	color:#FFFFFF;
+	position: absolute;
+	z-index: 1; /* lower than other elements */
+}
+
+
+#_back {
+	top: 981px;
+	left: 1732px;
+	width: 93px;
+	height: 57px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+	color:#D76CA2;
+}
+
+
+#_leigh_ek1 {
+	top: 787px;
+	left: 674px;
+	width: 99px;
+	height: 57px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 30px;
+	text-align: center;
+	color:#FFFFFF;
+	position: absolute;
+	z-index: 1; /* lower than other elements */
+}
+
+
+#_leigh_ek2 {
+	top: 787px;
+	left: 909px;
+	width: 99px;
+	height: 57px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 30px;
+	text-align: center;
+	color:#FFFFFF;
+	position: absolute;
+	z-index: 1; /* lower than other elements */
+}
+
+
+#_leigh_ek3 {
+	top: 787px;
+	left: 1143.8px; /* 1149.9*/
+	width: 99px;
+	height: 57px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 30px;
+	text-align: center;
+	color:#FFFFFF;
+	position: absolute;
+	z-index: 1; /* lower than other elements */
+}
+
+
+#_github {
+	top: 787px;
+	left: 1370px;
+	width: 122px;
+	height: 57px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 30px;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#group_1_1A {
+	top: 465px;
+	left: -192px;
+	width: 985.24px;
+	height: 940.14px;
+	position: absolute;
+	z-index: 0; /* lower than other elements */
+}
+
+
+#dipyramid_glass_1_1A {
+	top: -253px;
+	left: 1255px;
+	width: 843.53px;
+	height: 851.56px;
+}
+
+
+#globe_spiral_glass_1_1A {
+	top: 572px;
+	left: 1567px;
+	width: 271px;
+	height: 276px;
+}
+
+
+
+/* Add your custom CSS here */

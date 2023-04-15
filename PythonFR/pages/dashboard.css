@@ -1,0 +1,414 @@
+/*
+	@name dashboard
+*/
+/* Only edit this if you know what you are doing! */
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Arial";
+	overflow-x: hidden;
+}
+
+/* Only edit this if you know what you are doing! */
+img {
+	position: absolute;
+	display: block;
+	margin: 0px;
+	border: none;
+	padding: 0px;
+}
+
+/* Only edit this if you know what you are doing! */
+div {
+	position: absolute;
+}
+
+#content-container {
+	display: block;
+	position: relative;
+	width: 1920px;
+	width: 1920px;
+	height: 1080px;
+	overflow: hidden;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#_bg__dashboard {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background: rgba(230, 234, 243, 1);
+}
+
+
+#rectangle_58 {
+	top: 0px;
+	left: 360px;
+	width: 1560px;
+	height: 1080px;
+	background:rgba(230,234,243,1);
+}
+
+
+
+
+#rectangle_3 {
+	top: 28px;
+	left: 1632px;
+	width: 256px;
+	height: 59px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	border: 1px solid #608fbc;
+	background: rgba(255, 255, 255, 1);
+}
+
+
+#ellipse_1 {
+	top: 33px;
+	left: 1644px;
+	width: 50px;
+	height: 50px;
+	-ms-border-radius: 25px / 25px;
+	-o-border-radius: 25px / 25px;
+	-moz-border-radius: 25px / 25px;
+	-webkit-border-radius: 25px / 25px;
+	border-radius: 25px / 25px;
+	background: rgba(96, 143, 188, 1);
+}
+
+#person_svgrepo_com_1 {
+	top: 36px;
+	left: 1642px;
+	width: 54px;
+	height: 54px;
+}
+
+#layer_2 {
+	top: 0px;
+	left: 0px;
+	width: 54px;
+	height: 54px;
+}
+
+#person {
+	top: 0px;
+	left: 0px;
+	width: 54px;
+	height: 54px;
+}
+
+#vector {
+	top: 0px;
+	left: 0px;
+	width: 54px;
+	height: 54px;
+}
+
+
+#vector_ek1 {
+	top: 8px;
+	left: 18px;
+	width: 18px;
+	height: 18px;
+}
+
+
+#vector_ek2 {
+	top: 30px;
+	left: 11px;
+	width: 31.5px;
+	height: 18px;
+}
+
+/* updated Polygon part 
+to be copy to other CSS files */
+#polygon_1 { 
+	top: 51px;
+	left: 1842px;
+	width: 26.67px;
+	height: 20px;
+}
+
+
+#notification_svgrepo_com_1 {
+	top: 33px;
+	left: 1548px;
+	width: 50px;
+	height: 50px;
+}
+
+#group {
+	top: 0px;
+	left: 7.75px;
+	width: 34.51px;
+	height: 50px;
+}
+
+#group_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 34.51px;
+	height: 50px;
+}
+
+#group_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 34.51px;
+	height: 50px;
+}
+
+#vector_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 34.51px;
+	height: 38.37px;
+}
+
+
+#vector_ek4 {
+	top: 40px;
+	left: 12px;
+	width: 10.32px;
+	height: 10.32px;
+}
+
+
+#user {
+	top: 36px;
+	left: 1702px;
+	width: 84px;
+	height: 46px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#owner {
+	top: 61px;
+	left: 1702px;
+	width: 67.5px;
+	height: 28.5px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 15px;
+	text-align: left;
+	color: #000000;
+}
+
+
+#rectangle_1 {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 1077px;
+	background: rgba(245, 246, 251, 1);
+}
+
+#vector_ek5 {
+	top: 5.83px;
+	left: 5.83px;
+	width: 23.33px;
+	height: 23.33px;
+}
+
+#vector_ek6 {
+	top: 4.74px;
+	left: 4.74px;
+	width: 25.52px;
+	height: 25.52px;
+}
+
+#dashboard_svgrepo_com_1 {
+	top: 360px;
+	left: 60px;
+	width: 35px;
+	height: 35px;
+}
+
+#dashboard_svgrepo_com_2 {
+	top: 425px;
+	left: 60px;
+	width: 35px;
+	height: 35px;
+}
+
+#dashboard_svgrepo_com_3 {
+	height: 35px;
+	width: 35px;
+	left: 60px;
+	top: 495px;
+}
+
+#dashboard_svgrepo_com_4 {
+	height: 35px;
+	width: 35px;
+	left: 60px;
+	top: 563px;
+	border-radius: 0px;	
+}
+
+#dashboard_svgrepo_com_5 {
+	height: 35px;
+	width: 35px;
+	left: 60px;
+	top: 633px;
+	border-radius: 0px;	
+}
+
+#dashboard_svgrepo_com_6 {
+	height: 35px;
+	width: 35px;
+	left: 60px;
+	top: 701px;
+	border-radius: 0px;	
+}
+
+#dashboard_svgrepo_com_7 {
+	height: 35px;
+	width: 35px;
+	left: 60px;
+	top: 771px;
+	border-radius: 0px;	
+}
+
+#dashboard {
+	top: 362px;
+	left: 114px;
+	width: 158.5px;
+	height: 47.5px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 25px;
+	text-align: left;
+	color: #03274A;
+}
+
+
+#_student {
+	top: 427px;
+	left: 114px;
+	width: 123.5px;
+	height: 47.5px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 25px;
+	text-align: left;
+	color: #03274A;
+}
+
+
+#_add_student {
+	top: 497px;
+	left: 114px;
+	width: 177.5px;
+	height: 47.5px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 25px;
+	text-align: left;
+	color: #03274A;
+}
+
+
+#_attendance {
+	top: 635px;
+	left: 114px;
+	width: 165.5px;
+	height: 47.5px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 25px;
+	text-align: left;
+	color: #03274A;
+}
+
+
+#_update_student {
+	top: 565px;
+	left: 114px;
+	width: 216.5px;
+	height: 47.5px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 25px;
+	text-align: left;
+	color: #03274A;
+}
+
+
+#_time_sheet {
+	top: 703px;
+	left: 114px;
+	width: 163.5px;
+	height: 47.5px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 25px;
+	text-align: left;
+	color: #03274A;
+}
+
+
+#_about {
+	top: 773px;
+	left: 114px;
+	width: 100.5px;
+	height: 47.5px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 25px;
+	text-align: left;
+	color: #03274A;
+}
+
+
+#namename {
+	top: 245px;
+	left: 96px;
+	width: 202px;
+	height: 57px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	color: #608FBC;
+}
+
+
+#rectangle_8 {
+	top: 58px;
+	left: 94px;
+	width: 172px;
+	height: 172px;
+	background: rgba(96, 143, 188, 1);
+}
+
+
+#narcissus_tech___2023 {
+	top: 1023px;
+	left: 66px;
+	width: 237px;
+	height: 38px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 20px;
+	text-align: center;
+	color: #608FBC;
+}
+
+
+
+/* Add your custom CSS here */
