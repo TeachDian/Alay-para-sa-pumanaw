@@ -12,7 +12,7 @@ div { position: absolute; }
 
 #content-container { display: block; position: relative; width: 1920px; width: 1920px; height: 1080px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
 
-#_bg__login_page {
+#bg_loginpage {
 	top: 0px;
 	left: 0px;
 	width: 1920px;
@@ -26,7 +26,7 @@ div { position: absolute; }
 }
 
 
-#rectangle_3 {
+#login_frame {
 	top: 115px;
 	left: 960px;
 	width: 835px;
@@ -40,11 +40,15 @@ div { position: absolute; }
 }
 
 
-#rectangle_4 {
+#usernameBx {
 	top: 392px;
 	left: 1085px;
 	width: 586px;
 	height: 60px;
+	font-family: Inter;
+	font-size: 30px;
+	text-align: left;
+	color:#1F0010;
 	-ms-border-radius: 15px;
 	-o-border-radius: 15px;
 	-moz-border-radius: 15px;
@@ -56,14 +60,37 @@ div { position: absolute; }
 	-moz-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
 	box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
 	background:rgba(255,255,255,1);
+	overflow: hidden;
+}
+#usernameTx{
+	left: 1055px;
+	width: 586px;
+	height: 60px;
+	font-family: Inter;
+	font-size: 30px;
+	text-align: left;
+	text-indent: 30px;
+	color:#1F0010;
+	border-style: hidden;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	background:rgba(255,255,255,1);
+	overflow: hidden;
 }
 
 
-#rectangle_5 {
+#passwordBx {
 	top: 497px;
 	left: 1085px;
 	width: 586px;
 	height: 60px;
+	font-family: Inter;
+	font-size: 30px;
+	text-align: left;
+	color:#1F0010;
 	-ms-border-radius: 15px;
 	-o-border-radius: 15px;
 	-moz-border-radius: 15px;
@@ -75,6 +102,26 @@ div { position: absolute; }
 	-moz-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
 	box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
 	background:rgba(255,255,255,1);
+	overflow: hidden;
+}
+
+#passwordTx{
+	left: 1055px;
+	width: 586px;
+	height: 60px;
+	font-family: Inter;
+	font-size: 30px;
+	text-align: left;
+	text-indent: 30px;
+	color:#1F0010;
+	border-style: hidden;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	background:rgba(255,255,255,1);
+	overflow: hidden;
 }
 
 
@@ -106,19 +153,6 @@ div { position: absolute; }
 }
 
 
-#username {
-	top: 404px;
-	left: 1113px;
-	width: 179px;
-	height: 57px;
-	overflow: hidden;
-	font-family: Inter;
-	font-size: 30px;
-	text-align: left;
-	color:#1F0010;
-}
-
-
 #narcissus_tech___2023 {
 	top: 917px;
 	left: 1264px;
@@ -129,19 +163,6 @@ div { position: absolute; }
 	font-size: 20px;
 	text-align: center;
 	color:#608FBC;
-}
-
-
-#password {
-	top: 509px;
-	left: 1113px;
-	width: 172px;
-	height: 57px;
-	overflow: hidden;
-	font-family: Inter;
-	font-size: 30px;
-	text-align: left;
-	color:#1F0010;
 }
 
 
@@ -210,3 +231,14 @@ div { position: absolute; }
 
 
 /* Add your custom CSS here */
+
+
+::placeholder{
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 30px;
+	text-align: left;
+	/* text-indent: 30px; */
+	color:#403e3f;
+
+}
