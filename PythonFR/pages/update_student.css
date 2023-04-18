@@ -66,8 +66,8 @@ div {
 #rectangle_3 {
 	top: 28px;
 	left: 1632px;
-	width: 256px;
-	height: 59px;
+	width: 254px;
+	height: 58px;
 	-ms-border-radius: 50px;
 	-o-border-radius: 50px;
 	-moz-border-radius: 50px;
@@ -423,6 +423,18 @@ to be copy to other CSS files */
 	color:#03274A;
 }
 
+#search_by {
+	height: 45px;
+	width: 166px;
+	left: 434px;
+	top: 263px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 35px;
+	text-align: left;
+	color: rgba(96, 143, 188, 1);
+}
+
 #studentPicture_box {
 	width: 365px;
 	height: 365px;
@@ -440,6 +452,168 @@ to be copy to other CSS files */
 	box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
 	background:rgba(255,255,255,1);
 }
+
+#studentId_box {
+	width: 879px;
+	height: 60px;
+	left: 434px;
+	top: 332px;
+	font-family: Inter;
+	font-size: 30px;
+	text-align: left;
+	color:#1F0010;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	-ms-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+	overflow: hidden;
+}
+#studentId_txt{
+	left: 434px;
+	width: 879px;
+	height: 60px;
+	font-family: Inter;
+	font-size: 30px;
+	text-align: left;
+	text-indent: 20px;
+	color:#1F0010;
+	border-style: hidden;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	background:rgba(255,255,255,1);
+	overflow: hidden;
+}
+#studentName_box {
+	width: 879px;
+	height: 60px;
+	left: 434px;
+	top: 469px;
+	font-family: Inter;
+	font-size: 30px;
+	text-align: left;
+	color:#1F0010;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	-ms-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+	overflow: hidden;
+}
+#studentName_txt{
+	left: 434px;
+	width: 879px;
+	height: 60px;
+	font-family: Inter;
+	font-size: 30px;
+	text-align: left;
+	text-indent: 20px;
+	color:#1F0010;
+	border-style: hidden;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	background:rgba(255,255,255,1);
+	overflow: hidden;
+}
+#studentCourse_box {
+	width: 879px;
+	height: 60px;
+	left: 434px;
+	top: 556px;
+	font-family: Inter;
+	font-size: 30px;
+	text-align: left;
+	color:#1F0010;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	-ms-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+	overflow: hidden;
+}
+#studentCourse_txt{
+	left: 434px;
+	width: 879px;
+	height: 60px;
+	font-family: Inter;
+	font-size: 30px;
+	text-align: left;
+	text-indent: 20px;
+	color:#1F0010;
+	border-style: hidden;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	background:rgba(255,255,255,1);
+	overflow: hidden;
+}
+#studentSection_box {
+	width: 879px;
+	height: 60px;
+	left: 434px;
+	top: 646px;
+	font-family: Inter;
+	font-size: 30px;
+	text-align: left;
+	color:#1F0010;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	-ms-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 2px 2px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+	overflow: hidden;
+}
+#studentSection_txt{
+	left: 434px;
+	width: 879px;
+	height: 60px;
+	font-family: Inter;
+	font-size: 30px;
+	text-align: left;
+	text-indent: 20px;
+	color:#1F0010;
+	border-style: hidden;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	background:rgba(255,255,255,1);
+	overflow: hidden;
+}
+
 #uploadPic_btn {
 	width: 365px;
 	height: 56px;

@@ -66,8 +66,8 @@ div {
 #rectangle_3 {
 	top: 28px;
 	left: 1632px;
-	width: 256px;
-	height: 59px;
+	width: 254px;
+	height: 58px;
 	-ms-border-radius: 50px;
 	-o-border-radius: 50px;
 	-moz-border-radius: 50px;
@@ -410,7 +410,17 @@ to be copy to other CSS files */
 }
 
 /* Add your custom C SS here */
-
+#timesheetTxt {
+	width: 379px;
+	height: 61px;
+	left: 434px;
+	top: 148px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 50px;
+	text-align: left;
+	color:#03274A;
+}
 
 #dashboardIcon {
 	top: 0px;
@@ -453,4 +463,31 @@ to be copy to other CSS files */
 	left: 0px;
 	width: 35px;
 	height: 35px;
+}
+/* Main Forms Panel or table because kurt didn't do his job */
+
+#timesheetSize {
+	height: 775px;
+	width: 1427px;
+	left: 434px;
+	top: 248px;
+	padding: 30px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	-ms-box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.25);
+	-o-box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.25);
+	background: rgba(255, 255, 255, 1);
+}
+.textSize25{
+	font-size: 25px;
+	
+}
+.colorPink{
+	color: rgba(215, 108, 162, 1);
 }
