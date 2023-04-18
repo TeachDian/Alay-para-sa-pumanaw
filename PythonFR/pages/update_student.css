@@ -730,3 +730,51 @@ to be copy to other CSS files */
 	height: 35px;
 }
 
+.buttonSpanTxt{
+	font-family: Inter;
+	font-size: 30px;
+	text-align: center;
+	text-indent: 20px;
+	color: rgba(230, 234, 243, 1);
+	border-style: hidden;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+.buttonSize{
+	width: 365px;
+	height: 56px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	background: rgba(215, 108, 162, 1);
+	border-style: hidden;
+	transition: ease-out 0.3s;
+}
+.buttonSize2{
+	width: 365px;
+	height: 56px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	background: rgba(96, 143, 188, 1);
+	border-style: hidden;
+	transition: ease-out 0.3s;
+}
+.buttonSize:hover{
+	box-shadow: inset 365px 0 0 0 #608FBC;
+	cursor: pointer;
+}
+.buttonSize2:hover{
+	box-shadow: inset 365px 0 0 0 rgba(215, 108, 162, 1);;
+	cursor: pointer;
+}
+.cornerImage1{
+	border-radius: 15px;
+}

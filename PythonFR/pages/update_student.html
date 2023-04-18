@@ -167,11 +167,38 @@
 			<input type="text" class="form-control" id="studentSection_txt" placeholder="Section">
 		</div>
 
-		<div id="studentPicture_box"></div>
-		<div id="uploadPic_btn"></div>
-		<div id="takePic_btn"></div>
-		<div id="trainPic_btn"></div>
-		<div id="saveStu_btn"></div>
+
+		<div id="studentPicture_box" class="text-center">
+			<img src="skins/imagePlaceHolder.png" class="img-fluid cornerImage1" style="border-radius: 15px" alt="skins/imagePlaceHolder.png">
+		</div>
+		<div id="uploadPic_btn">
+			<button type="button" class="buttonSize">
+				<span class="buttonSpanTxt">
+					Upload Picture
+				</span>
+			</button>
+		</div>
+		<div id="takePic_btn">
+			<button type="button" class="buttonSize">
+				<span class="buttonSpanTxt">
+					Take Picture
+				</span>
+			</button>
+		</div>
+		<div id="trainPic_btn">
+			<button type="button" class="buttonSize">
+				<span class="buttonSpanTxt">
+					Train Picture
+				</span>
+			</button>
+		</div>
+		<div id="saveStu_btn">
+			<button type="button" class="buttonSize2">
+				<span class="buttonSpanTxt">
+					Update Student
+				</span>
+			</button>
+		</div>
 
 	</div>
 	<script>var specialChars = document.querySelectorAll("span.char"); for (var c = 0; c < specialChars.length; c++) { specialChars[c].innerHTML = decodeURIComponent(specialChars[c].innerHTML); }</script>

@@ -479,6 +479,10 @@ button {
     border-radius: 0
 }
 
+buttonR15 {
+    border-radius: 15px
+}
+
 button:focus:not(:focus-visible) {
     outline: 0
 }

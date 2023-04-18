@@ -454,3 +454,53 @@ to be copy to other CSS files */
 
 
 /* Add your custom CSS here */
+
+.carouselDB {
+	height: 775px;
+	width: 1427px;
+	left: 434px;
+	top: 248px;
+	padding: 30px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	-ms-box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.25);
+	-o-box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.25);
+	background: rgb(255, 255, 255);
+}
+#DashboardTxt {
+	width: 379px;
+	height: 61px;
+	left: 434px;
+	top: 148px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 50px;
+	text-align: left;
+	color:#03274A;
+}
+.DBtextColor{
+	font-family: Inter;
+	font-size: 50px;
+	text-align: left;
+	color:#1c76d1;
+}
+.carousel-captionDB {
+	font-family: Inter;
+	font-size: 50px;
+	text-align: left;
+	color:#03274A;
+	top: 248px;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #000000;
+    text-align: center
+}
